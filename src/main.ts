@@ -48,10 +48,11 @@ namespace ecg {
     } else {
       heartDataIndex++;
     }
-    if (beatDataIndex >= 0) {
-      fillBeatData()
+    if (beatDataIndex >= 0 || BANG) {
+      fillBeatData();
+      BANG = false;
     } else {
-      fillRandomData()
+      fillRandomData();
     }
   }
 
@@ -100,7 +101,7 @@ namespace ecg {
 
       context.beginPath();
       context.fillStyle = CURVE_COLOR;
-      ellipse(context, x - 5, y - 5, 10, 10);
+      ellipse(context, x - 1, y - 1, 2, 2);
       context.fill();
       context.closePath();
     };
