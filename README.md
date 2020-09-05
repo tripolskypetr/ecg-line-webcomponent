@@ -6,6 +6,6 @@ An easy-to-use web component which drawing an electrocardiogram on canvas. It al
 
 ![good solution](assets/img/good-solution.gif)
 
-Tribute to an an unknown developer who tried but [dit not make it](https://stackoverflow.com/questions/40014999/animate-ecg-pulse-line-builded-with-border-and-border-radius)...
+Tribute to an an unknown developer who tried but [did not make it](https://stackoverflow.com/questions/40014999/animate-ecg-pulse-line-builded-with-border-and-border-radius)...
 
 ![bad solution](assets/img/bad-solution.png)
