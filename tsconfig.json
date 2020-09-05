@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "ES3",
+    "module": "amd",
+    "lib": ["esnext", "dom"],
+    "outFile": "./dist/ecg-webcomponent.js",
+    "rootDir": "./src/",
+    "declaration": false,
+    "sourceMap": false
+  },
+  "exclude": ["dist/**"]
+}

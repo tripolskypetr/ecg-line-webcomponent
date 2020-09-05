@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="dist/ecg-webcomponent.js"></script>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <script>
+      (function() {
+        document.body.innerHTML += '<ecg-line></ecg-line>';
+        ecgLine((bang) => setInterval(() => bang(), 1000));
+      })();
+    </script>
+  </body>
+</html>

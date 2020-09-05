@@ -1,0 +1,25 @@
+{
+  "name": "ecg-line-webcomponent",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && http-server",
+    "dev": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tripolskypetr/ecg-line-webcomponent.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tripolskypetr/ecg-line-webcomponent/issues"
+  },
+  "homepage": "https://github.com/tripolskypetr/ecg-line-webcomponent#readme",
+  "devDependencies": {
+    "http-server": "^0.12.3",
+    "typescript": "^4.0.2"
+  }
+}
