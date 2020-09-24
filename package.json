@@ -5,6 +5,7 @@
   "main": "index.html",
   "scripts": {
     "start": "tsc && http-server",
+    "build": "tsc",
     "dev": "tsc -w"
   },
   "repository": {
