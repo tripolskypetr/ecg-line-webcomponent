@@ -2,7 +2,7 @@
 
 > ECG line canvas wrapped with webcomponent
 
-An easy-to-use web component which drawing an electrocardiogram on canvas. It also can be easy paired with [web bluetooth api](https://webbluetoothcg.github.io/web-bluetooth/#introduction-examples) to display heartrate from remote device in realtime (check `bang()` in callback)
+An easy-to-use web component which drawing an electrocardiogram on canvas. It also can be easy paired with [web bluetooth api](https://webbluetoothcg.github.io/web-bluetooth/#introduction-examples) to display heartrate from remote device in realtime (check `bang()` in callback, [instruction](https://github.com/tripolskypetr/ecg-line-webcomponent/issues/3))
 
 ![good solution](assets/img/good-solution.gif)
 
